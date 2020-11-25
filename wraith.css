@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: "Franklin Gothic Medium";
+  }
+
+  h1{
+    transition: 2s
+  }
+  
+  h2{
+    transition: 2s
+  }
+
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 10px 0  10px 0;
+    background-image: url(https://www.pubg.com/wp-content/uploads/2020/07/banner.png);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.9;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.9px;
+    margin-bottom: 10px;
+  }
+
+  .contact-form{
+    padding-top: 50px;
+  }
+
+  .submit-contact{
+    background color: grey;
+    color: black;
+  }
+  
+  header {
+    height: 50px;
+    background-color:black;
+  }
+  
+  .header-left {
+    float: left; 
+    padding: 8px 15px;
+    font-size: 27px;
+    color: white;
+  }
+  
+  .header-right{
+    float: right;
+    background-color: rgba(235, 235, 38, 0.842);
+    transition: 0.5s;
+  }
+  
+  .header-right:hover{
+    background-color:  rgba(230, 209, 24, 0.4);
+  }
+  
+  .header-right a {
+    line-height: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: black;
+    display: block;
+  }
+
+  .footer {
+    background-color: black;
+    height: 100px;
+    padding-top: 20px;
+  }
+  
+  .footer-logo{
+    font-size: 20px;
+  }
